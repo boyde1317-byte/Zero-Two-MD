@@ -116,7 +116,7 @@ export default {
 │ Number: ${number}\n│ Code: *${formattedCode}*\n│ \n│ Copy the code and paste it\n│ in your WhatsApp linked\n│ devices section.\n│ \n│ The code expires quickly so\n│ move your slow ass.\n╰───────────────\n> ©𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 𝐱𝐡_𝐜𝐥𝐢𝐧𝐭𝐨𝐧`
                                 }),
                                 footer: proto.Message.InteractiveMessage.Footer.create({
-                                    text: 'Toxic-MD Pairing System'
+                                    text: 'Zero Two Pairing System'
                                 }),
                                 nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
                                     buttons: [
