@@ -23,7 +23,7 @@ const getTimeGreeting = () => {
 export default {
     name: 'menu',
     aliases: ['commands', 'list', 'cmds', 'm', 'cmd', 'commandlist', 'allcmds'],
-    description: 'Displays the Toxic-MD command menu',
+    description: 'Displays the Zero Two command menu',
     run: async (context) => {
         const { client, m, mode, pict, botname, prefix } = context;
 
@@ -44,7 +44,7 @@ export default {
             `│ \n` +
             `│ ${greeting}, @${m.sender.split('@')[0].split(':')[0]}\n` +
             `│ \n` +
-            `│ Bot: TOXIC-MD\n` +
+            `│ Bot: Zero Two\n` +
             `│ Prefix: ${prefix}\n` +
             `│ Mode: ${mode}\n` +
             `│ \n` +
@@ -94,7 +94,7 @@ export default {
                 `│ \n` +
                 `│ ${greeting}, @${m.sender.split('@')[0].split(':')[0]}\n` +
                 `│ \n` +
-                `│ Bot: TOXIC-MD\n` +
+                `│ Bot: Zero Two\n` +
                 `│ Prefix: ${prefix}\n` +
                 `│ Mode: ${mode}\n` +
                 `│ \n` +
