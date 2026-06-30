@@ -285,7 +285,7 @@ import { createCanvas, loadImage, GlobalFonts } from '@napi-rs/canvas';
       ctx.beginPath(); ctx.moveTo(PAD, curY); ctx.lineTo(W - PAD, curY); ctx.stroke();
       ctx.font = '12px SFRegular'; ctx.fillStyle = '#334155'; ctx.textAlign = 'center';
       ctx.fillText(
-          `${botName}  ·  ${moment(timestamp).tz('Africa/Nairobi').format('DD MMM YYYY, HH:mm')} EAT  ·  Toxic-MD Auto Report`,
+          `${botName}  ·  ${moment(timestamp).tz('Africa/Nairobi').format('DD MMM YYYY, HH:mm')} EAT  ·  Zero Two Auto Report`,
           W / 2, curY + 28
       );
 
@@ -349,7 +349,7 @@ import { createCanvas, loadImage, GlobalFonts } from '@napi-rs/canvas';
           const totalMsg = gcUsers.reduce((s, u) => s + u.count, 0);
           const activeUsers = gcUsers.length;
 
-          const caption = `*[ 📊 TOXIC-MD DAILY REPORT ]*\n\nGroup: ${groupName}\nMembers: ${members}\nTotal Messages: ${totalMsg.toLocaleString('en-US')}\nActive Users: ${activeUsers}\n\nPowered by Toxic-MD Auto Report`;
+          const caption = `*[ 📊 Zero Two DAILY REPORT ]*\n\nGroup: ${groupName}\nMembers: ${members}\nTotal Messages: ${totalMsg.toLocaleString('en-US')}\nActive Users: ${activeUsers}\n\nPowered by Zero Two Auto Report`;
 
           let topYappers;
           let activityData;
