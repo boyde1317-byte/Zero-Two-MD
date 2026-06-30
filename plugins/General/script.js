@@ -4,7 +4,7 @@ import { sendInteractive } from '../../lib/sendInteractive.js';
 export default {
   name: 'script',
   aliases: ['repo', 'source', 'github', 'git', 'gh', 'src', 'code', 'sourcecode'],
-  description: 'Show GitHub repository info for Toxic-MD',
+  description: 'Show GitHub repository info for Zero Two',
   run: async (context) => {
     const { client, m, botname, prefix = '' } = context;
     await client.sendMessage(m.chat, { react: { text: '⌛', key: m.reactKey } });
