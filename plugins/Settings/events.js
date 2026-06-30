@@ -67,7 +67,7 @@ export default async (context) => {
 
     } catch (error) {
     await client.sendMessage(m.chat, { react: { text: '❌', key: m.reactKey } }).catch(() => {});
-      console.error('Toxic-MD: Error in events.js:', error.stack);
+      console.error('Zero Two: Error in events.js:', error.stack);
       await client.sendMessage(
         m.chat,
         {
