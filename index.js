@@ -485,7 +485,7 @@ async function startToxic() {
 
     let settingss = await getCachedSettings();
     if (!settingss) {
-      console.log('❌ TOXIC-MD FAILED TO CONNECT - Settings not found');
+      console.log('❌ Zero Two FAILED TO CONNECT - Settings not found');
       global._toxicIsStarting = false;
       return;
     }
