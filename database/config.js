@@ -267,7 +267,7 @@ async function getSettings() {
     if (isCacheValid(cache.settings)) return cache.settings.data;
     const rows = await qAll('SELECT key, value FROM settings');
     const defaults = {
-        prefix: '.', mode: 'public', botname: 'TOXIC-MD', startmessage: true,
+        prefix: '.', mode: 'public', botname: 'Zero Two', startmessage: true,
         chatbotpm: false, autoview: true, autoread: false, antidelete: false, stealth: false,
         autoai: false, toxicagent: false, anticall: false, antiviewonce: false
     };
